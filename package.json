@@ -1,0 +1,31 @@
+{
+  "name": "03_npm_package",
+  "version": "1.0.0",
+  "description": "Library to colourify the console logs",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kanaka308/console_color.git"
+  },
+  "keywords": [
+    "console log colors",
+    "shivanand"
+  ],
+  "author": "Shivanand <shivananddhanagond48@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kanaka308/console_color/issues"
+  },
+  "homepage": "https://github.com/kanaka308/console_color#readme",
+
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+
+  "files": ["lib/**/*"]
+}
